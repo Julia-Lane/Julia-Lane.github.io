@@ -1,0 +1,88 @@
+body {
+	background-color: beige;
+}
+.a {
+	font-family:futura;
+	color: navy;
+	font-weight:bold;
+	font-size:7.5vh;
+	text-align:center;
+	text-transform: uppercase;
+	background-color: none;
+	position: fixed;
+	top: 25%;
+	left: 15%;
+	right: 15%;
+	width: 70%;
+
+}
+
+.b {
+	font-family:futura;
+	color: navy;
+	font-weight:bold;
+	font-size:7.5vh;
+	text-align:center;
+	text-transform: uppercase;
+	background-color: none;
+	position: fixed;
+	top: 40%;
+	left: 15%;
+	right: 15%;
+	width: 70%;
+}
+
+.c {
+	font-family:futura;
+	color: navy;
+	font-weight:bold;
+	font-size:7.5vh;
+	text-align:center;
+	text-transform: uppercase;
+	background-color: none;
+	position: fixed;
+	top: 55%;
+	left: 15%;
+	right: 15%;
+	width: 70%;
+}
+
+.title {
+	padding-left: 13px;
+	padding-right: 13px;
+	font-family: futura;
+	font-size:10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: navy;
+	position: fixed;
+	bottom: 0px;
+	width: 100vw;
+	height: 10px;
+	background-color: beige;
+	white-space: inherit;
+	
+	
+
+}
+
+.backg {
+	font-family: futura;
+	font-style: italic;
+	border-image-repeat: repeat-y;
+	color: lightgrey;
+	text-align:center;
+	font-size: 10px;
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100vw;
+	z-index:-1;
+	background-color: none;
+
+
+}
+
+ 
+ 
