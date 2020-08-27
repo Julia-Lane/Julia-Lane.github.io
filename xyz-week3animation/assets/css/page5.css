@@ -293,7 +293,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear infinite;
+	doit 3s ease infinite;
 }
 
 @keyframes doit{
@@ -301,7 +301,7 @@ body{
 		transform: translate(0,0);
 	}
 	100% {
-		transform: translate(0,3000px);
+		transform: translate(0,1000px);
 	}
 }
 
@@ -314,7 +314,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 10s ease infinite;
 }
 
 .c3 {
@@ -326,7 +326,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 4s ease infinite;
 }
 
 .c4 {
@@ -338,7 +338,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 4s ease infinite;
 }
 
 .c5 {
@@ -350,7 +350,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 5s ease infinite;
 }
 
 .c6 {
@@ -362,7 +362,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 5s ease infinite;
 }
 .c7 {
 	position: absolute;
@@ -373,7 +373,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 6s ease infinite;
 }
 
 .c8 {
@@ -385,7 +385,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 6s ease infinite;
 }
 
 .c9 {
@@ -397,7 +397,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 7s ease infinite;
 }
 
 .c10 {
@@ -409,7 +409,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 7s ease infinite;
 }
 
 .c11 {
@@ -421,7 +421,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 8s ease infinite;
 }
 
 .c12 {
@@ -433,7 +433,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 8s ease infinite;
 }
 
 .c13 {
@@ -445,7 +445,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 9s ease infinite;
 }
 
 .c14 {
@@ -457,7 +457,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 9s ease infinite;
 }
 
 .c15 {
@@ -469,7 +469,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 10s ease infinite;
 }
 
 .c16 {
@@ -481,7 +481,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 2.5s ease infinite;
 }
 
 .c17 {
@@ -493,7 +493,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 3.5s ease infinite;
 }
 
 .c18 {
@@ -505,7 +505,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 4.5s ease infinite;
 }
 
 .c19 {
@@ -517,7 +517,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 5.5s ease infinite;
 }
 
 .c20 {
@@ -529,7 +529,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 6.5s ease infinite;
 }
 
 .c21 {
@@ -541,7 +541,7 @@ body{
 	border-radius: 100px;
 	background-color: white;
 	animation:
-	doit 100s linear;
+	doit 7.5s ease infinite;
 }
 
 
