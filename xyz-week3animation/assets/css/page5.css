@@ -1,5 +1,5 @@
 body{
-	background-color: #18491b;
+	background-color: #36454f;
 }
 
 .opaque {
@@ -7,7 +7,7 @@ body{
 	height: 100vh;
 	width: 100vw;
 	background-color: lightblue;
-	opacity: 60%;
+	opacity: 30%;
 }
 
 .forecastbox {
@@ -21,6 +21,18 @@ body{
 	font-size: 10px;
 	text-align: right;
 }
+
+.name {
+	position:fixed;
+	top: 95vh;
+	left: 82vw;
+	font-family: courier;
+	font-size: 10px;
+	color: white;
+}
+
+
+
 .forecast {
 	position: fixed;
 	left: 0px;
@@ -35,18 +47,23 @@ body{
 	font-family: courier;
 	color: navy;
 	animation:
-	nudge 12s ease infinite ;
+	nudge 10s ease infinite alternate ;
 	
 }
 
 	@keyframes nudge {
   0%  {
-    transform: translate(-400px, 0);
+    color: navy;
+  }
+  50% {
+  	color: lightblue;
   }
   
-  
+  75% {
+    color: white;
+  }
   100% {
-    transform: translate(1300px, 0);
+  	color: lightblue;
   }
 }
 
@@ -54,37 +71,95 @@ body{
 
 .a {
 	position: fixed;
-	top: 125px;
-	left: 7%;
+	top: 185px;
+	left: 41%;
+	height: 125px;
+	width: 300px;
+	border-radius: 125px;
+	background-color: navy;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 	font-family: courier;
 	color: white;
 	text-transform: uppercase;
+	animation:
+	hault 10s ease infinite;
+	animation-delay: 10s;
 
+}
+
+@keyframes hault {
+	0% {
+		transform: translate(0,0);
+	}
+	50% {
+		transform: translate(500px,0);
+	}
+	100% {
+		transform: translate(0,0);
+	}
 }
 
 
 .b {
 	position: fixed;
-	top: 325px;
-	left: 38%;
+	top: 275px;
+	left: 36%;
+	height: 100px;
+	width: 425px;
+	border-radius: 150px;
+	background-color: navy;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 	font-family: courier;
 	color: white;
 	text-transform: uppercase;
+	animation:
+	pulse 10s ease infinite;
+	animation-delay: 10s;
 }
 
+@keyframes pulse {
+	0% {
+		transform: translate(0,0);
+	}
+	50% {
+		transform: translate(-500px,0);
+	}
+	100% {
+		transform: translate(0,0);
+	}
+
+}
 .c {
 	position: fixed;
-	top: 500px;
-	left: 68%;
+	top: 350px;
+	left: 33%;
+	height: 100px;
+	width: 500px;
+	border-radius: 150px;
+	background-color: navy;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 	font-family: courier;
 	color: white;
 	text-transform: uppercase;
+	animation:
+	yello 5s ease infinite;
+	animation-delay: 2s;
+}
+
+@keyframes yello {
+	0% {
+		transform: translate(0,0);
+	}
+	50% {
+		transform: translate(50px,0);
+	}
+	100% {
+		transform: translate(0,0);
+	}
+
 }
 
 
@@ -100,7 +175,7 @@ body{
 	left: 50px;
 	width: 400px;
 	height: 400px;
-	background-color: green;
+	background-color: grey;
 }
 
 .square2 {
@@ -109,7 +184,7 @@ body{
 	left: 500px;
 	width: 400px;
 	height: 400px;
-	background-color: lightgreen;
+	background-color: lightgrey;
 }
 
 
@@ -119,7 +194,7 @@ body{
 	left: 800px;
 	height: 400px;
 	width: 400px;
-	background-color: darkgreen;
+	background-color: darkgrey;
 }
 
 .square4 {
@@ -128,7 +203,7 @@ body{
 	left: 400px;
 	height: 300px;
 	width: 300px;
-	background-color: lime;
+	background-color: black;
 
 }
 
@@ -138,7 +213,7 @@ body{
 	left: 600px;
 	height: 200px;
 	width: 200px;
-	background-color: lime;
+	background-color: black;
 }
 
 .square6{
@@ -147,7 +222,7 @@ body{
 	left: 150px;
 	height: 400px;
 	width: 400px;
-	background-color: green;
+	background-color: grey;
 }
 
 .square7 {
@@ -156,7 +231,7 @@ body{
 	left: 800px;
 	height: 1000px;
 	width: 1000px;
-	background-color: green;
+	background-color: grey;
 }
 
 .square8 {
@@ -165,7 +240,7 @@ body{
 	left: 900px;
 	height: 500px;
 	width: 500px;
-	background-color: lime;
+	background-color: black;
 }
 
 .square9 {
@@ -174,7 +249,7 @@ body{
 	left: 0px;
 	height: 450px;
 	width: 450px;
-	background-color: lightgreen;
+	background-color: lightgrey;
 }
 
 .square10 {
@@ -183,7 +258,7 @@ body{
 	left: 0px;
 	height: 400px;
 	width: 400px;
-	background-color: darkgreen;
+	background-color: darkgrey;
 }
 
 .square11 {
@@ -192,7 +267,7 @@ body{
 	left: 500px;
 	height: 350px;
 	width: 350px;
-	background-color: darkgreen;
+	background-color: darkgrey;
 }
 
 
@@ -202,21 +277,287 @@ body{
 	left: 80%;
 	height: 300px;
 	width: 300px;
-	background-color: green;
+	background-color: grey;
 }
+
+.rain {
+
+}
+
+.c1 {
+	position: fixed;
+	top: 450px;
+	left: 450px;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear infinite;
+}
+
+@keyframes doit{
+	0% {
+		transform: translate(0,0);
+	}
+	100% {
+		transform: translate(0,3000px);
+	}
+}
+
+.c2 {
+	position: absolute;
+	top: 35vh;
+	left: 35vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c3 {
+	position: absolute;
+	top: 20vh;
+	left: 20vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c4 {
+	position: absolute;
+	top: 40vh;
+	left: 40vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c5 {
+	position: absolute;
+	top: 60vh;
+	left: 60vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c6 {
+	position: absolute;
+	top: 20vh;
+	left: 70vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+.c7 {
+	position: absolute;
+	top: 60vh;
+	left: 34vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c8 {
+	position: absolute;
+	top: 90vh;
+	left: 60vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c9 {
+	position: absolute;
+	top: 76vh;
+	left: 80vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c10 {
+	position: absolute;
+	top: 80vh;
+	left: 20vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c11 {
+	position: absolute;
+	top: 55vh;
+	left: 11vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c12 {
+	position: absolute;
+	top: 60vh;
+	left: 80vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c13 {
+	position: absolute;
+	top: 77vh;
+	left: 80vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c14 {
+	position: absolute;
+	top: 50vh;
+	left: 66vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c15 {
+	position: absolute;
+	top: 80vh;
+	left: 58vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c16 {
+	position: absolute;
+	top: 40vh;
+	left: 60vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c17 {
+	position: absolute;
+	top: 44vh;
+	left: 64vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c18 {
+	position: absolute;
+	top: 48vh;
+	left: 68vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c19 {
+	position: absolute;
+	top: 80vh;
+	left: 62vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c20 {
+	position: absolute;
+	top: 56vh;
+	left: 20vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
+.c21 {
+	position: absolute;
+	top: 60vh;
+	left: 80vw;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+	background-color: white;
+	animation:
+	doit 100s linear;
+}
+
 
 
 .zrect {
 	z-index: -1;
+
 }
 .rectangle {
 	position: fixed;
 	top: 80px;
 	left: 600px;
 	width: 200px;
-	height: 500px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: blue;
-	box-shadow: 20px 20px 20px grey;
 
 }
 
@@ -225,7 +566,8 @@ body{
 	top: 300px;
 	left: 200px;
 	width: 200px;
-	height: 600px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: darkblue;
 }
 
@@ -234,7 +576,8 @@ body{
 	top: 200px;
 	left: 850px;
 	width: 500px;
-	height: 200px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: darkblue;
 
 }
@@ -244,7 +587,8 @@ body{
 	top: 50px;
 	left: 50px;
 	width: 450px;
-	height: 100px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: darkblue;
 }
 
@@ -253,7 +597,8 @@ body{
 	top: 50px;
 	left: 700px;
 	width: 300px;
-	height: 100px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: darkblue;
 }
 
@@ -262,7 +607,8 @@ body{
 	top: 300px;
 	left: 1000px;
 	width: 100px;
-	height: 400px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: blue;
 }
 
@@ -271,7 +617,8 @@ body{
 	top: 400px;
 	left: 400px;
 	width: 450px;
-	height: 150px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: lightblue;
 }
 
@@ -280,7 +627,8 @@ body{
 	top: 300px;
 	left: 00px;
 	width: 450px;
-	height: 50px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: lightblue;
 }
 
@@ -289,7 +637,8 @@ body{
 	top: 100px;
 	left: 950px;
 	width: 450px;
-	height: 50px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: lightblue;
 }
 
@@ -298,16 +647,18 @@ body{
 	top: 600px;
 	left: 700px;
 	width: 500px;
-	height: 100px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: darkblue;
-}
+	}
 
 .rect11 {
 	position: fixed;
 	top: 175px;
 	left: 225px;
 	width: 300px;
-	height: 100px;
+	height: 10px;
+	border-radius: 10px;
 	background-color: blue;
 }
 
