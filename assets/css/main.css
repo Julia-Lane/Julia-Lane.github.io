@@ -136,6 +136,7 @@ a {
 }
 
 .titlepanel {
+	z-index: 1;
 	position: absolute;
 	left: 0px;
 	top: 949px;
@@ -150,15 +151,48 @@ a {
 }
 
 .boxx {
+	z-index: 1;
 	position: absolute;
+	display: inline-block;
 	left: 0px;
-	top: 997px;
+	top: 1049px;
+	height: 300px;
+	width: 49vw;
+	background-color: purple;
+	opacity: 100%;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial black;
+	
+}
+
+.box2 {
+	z-index: 1;
+	position: absolute;
+	display: inline-block;
+	left: 50vw;
+	top: 1049px;
+	height: 300px;
+	width: 50vw;
+	background-color: blue;
+	opacity: 100%;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial black;
+}
+
+.works {
+	z-index: 1;
+	position: absolute;
+	left: 0vw;
+	top: 1349px;
 	height: 600px;
 	width: 100vw;
-	background-color: black;
-	color: yellow;
-	font-size: 50px;
+	overflow-y: none;
 	overflow-x: scroll;
 	white-space: nowrap;
-
+	background-color: black;
+	
 }
