@@ -3,6 +3,7 @@ body {
 	font-size: 32px;
 	color: yellow;
 	background-color: black;
+	
 }
 
 a {
@@ -130,6 +131,7 @@ a {
 	left: 43vw;
 	font-family: arial black;
 	font-kerning: none;
+	letter-spacing: 7px;
 	font-style: bold;
 	font-size: 20px;
 	color: white;

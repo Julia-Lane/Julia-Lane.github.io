@@ -25,8 +25,8 @@ body{
 .name {
 	position:fixed;
 	top: 95vh;
-	left: 82vw;
-	font-family: courier;
+	left: 85vw;
+	font-family: helvetica;
 	font-size: 10px;
 	color: white;
 }
@@ -44,7 +44,7 @@ body{
 	overflow-x: scroll;
 	white-space: nowrap;
 	background-color: lightblue;
-	font-family: courier;
+	font-family: helvetica;
 	color: navy;
 	animation:
 	nudge 10s ease infinite alternate ;
@@ -78,8 +78,8 @@ body{
 	border-radius: 125px;
 	background-color: navy;
 	text-align: center;
-	font-size: 30px;
-	font-family: courier;
+	font-size: 25px;
+	font-family: helvetica;
 	color: white;
 	text-transform: uppercase;
 	animation:
@@ -110,8 +110,8 @@ body{
 	border-radius: 150px;
 	background-color: navy;
 	text-align: center;
-	font-size: 30px;
-	font-family: courier;
+	font-size: 25px;
+	font-family: helvetica;
 	color: white;
 	text-transform: uppercase;
 	animation:
@@ -140,8 +140,8 @@ body{
 	border-radius: 150px;
 	background-color: navy;
 	text-align: center;
-	font-size: 30px;
-	font-family: courier;
+	font-size: 25px;
+	font-family: helvetica;
 	color: white;
 	text-transform: uppercase;
 	animation:
