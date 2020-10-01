@@ -1,0 +1,341 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: black;
+}
+
+a {
+	color: black;
+}
+
+
+/*.container {
+	position: fixed;
+	top: 10vh;
+	left: 2vw;
+	height: 30vh;
+	width: 96vw;
+	background-color: yellow;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}*/
+
+img {
+	max-width: 100%;
+}
+
+
+
+
+.item {
+	z-index: -1;
+	position: absolute;
+	left: 10vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item2 {
+	position: absolute;
+	left: 17vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+
+.item3 {
+	position: absolute;
+	left: 24vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item4 {
+	position: absolute;
+	left: 31vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+
+.item5 {
+	position: absolute;
+	left: 38vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item6 {
+	position: absolute;
+	left: 45vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+.item7 {
+	position: absolute;
+	left: 52vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item8 {
+	position: absolute;
+	left: 59vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+
+.item9 {
+	position: absolute;
+	left: 66vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item10 {
+	position: absolute;
+	left: 73vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+
+.item11 {
+	position: absolute;
+	left: 80vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item12 {
+	position: absolute;
+	left: 87vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+
+.item13 {
+	position: absolute;
+	left: 94vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item14 {
+	position: absolute;
+	left: 101vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+.item15 {
+	position: absolute;
+	left: 108vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item16 {
+	position: absolute;
+	left: 115vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+.item17 {
+	position: absolute;
+	left: 122vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item18 {
+	position: absolute;
+	left: 129vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+.item19 {
+	position: absolute;
+	left: 136vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item20 {
+	position: absolute;
+	left: 143vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+.item21 {
+	position: absolute;
+	left: 150vh;
+	top: 10vh;
+	width: 8%;
+}
+
+.item22 {
+	position: absolute;
+	left: 157vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+.item23 {
+	position: absolute;
+	left: 164vh;
+	top: 10vh;
+	width: 8%;
+}
+.item24 {
+	position: absolute;
+	left: 171vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+.item25 {
+	position: absolute;
+	left: 178vh;
+	top: 10vh;
+	width: 8%;
+}
+.item26 {
+	position: absolute;
+	left: 185vh;
+	top: 10vh;
+	width: 8%;
+	transform: rotatex( 180deg);	
+}
+
+
+.rect-1 {
+	position: absolute;
+	top: 10vh;
+	left: 4vw;
+	height: 27.5vh;
+	width: 66vw;
+	background-color: purple;
+	opacity: 50%;
+}
+
+.rect {
+	position: absolute;
+	top: 10vh;
+	left: 20vw;
+	height: 27.5vh;
+	width: 60vw;
+	background-color: green;
+	opacity: 50%;
+	animation:
+	slick 12s ease alternate;
+}
+
+@keyframes slick {
+	0%  {
+    transform: translate(0,0);
+
+  }
+   50% {
+   	transform: translate(15vw,0);
+  	
+   }
+  
+  100% {
+    transform: translate(0,0);
+    
+  }
+
+}
+
+.rect01 {
+	position: absolute;
+	top: 10vh;
+	left: 40vw;
+	height: 27.5vh;
+	width: 56vw;
+	background-color: blue;
+	opacity: 50%;
+}
+
+.rect02 {
+	position: absolute;
+	top: 10vh;
+	left: 60vw;
+	height: 27.5vh;
+	width: 36vw;
+	background-color: red;
+	opacity: 50%;
+	animation: 
+	nudge 6s ease alternate;
+	animation-delay: 2s;
+}
+
+@keyframes nudge {
+	0%  {
+    transform: translate(0,0);
+
+  }
+   50% {
+   	transform: translate(4vw,0);
+  	
+   }
+  
+  100% {
+    transform: translate(0,0);
+    
+  }
+
+}
+
+.title {
+	position: absolute;
+	top: 22vh;
+	left: 43vw;
+	font-family: arial black;
+	font-kerning: none;
+	letter-spacing: 7px;
+	font-style: bold;
+	font-size: 20px;
+	color: black;
+}
+
+.boxx {
+	z-index: 1;
+	position: absolute;
+	display: inline-block;
+	left: 10vh;
+	top: 40vh;
+	height: 150px;
+	width: 45vw;
+	background-color: purple;
+	opacity: 100%;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial black;
+	
+}
+
+.box2 {
+	z-index: 1;
+	position: absolute;
+	display: inline-block;
+	left: 10vh;
+	top: 65vh;
+	height: 150px;
+	width: 45vw;
+	background-color: blue;
+	opacity: 100%;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial black;
+}
