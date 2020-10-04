@@ -87,7 +87,7 @@ span {
 	background-color: #5c3262;
 	align-content: center;
 	animation:
-	change 7s ease infinite;	
+	changeb 60s ease infinite;	
 	animation-delay: 5s;	
 }
 
@@ -102,7 +102,7 @@ span {
 	background-color: #5c3262;
 	align-content: center;
 	animation:
-	change 7s ease infinite;	
+	changeb 60s ease infinite;	
 	animation-delay: 4s;
 }
 
@@ -117,7 +117,7 @@ span {
 	background-color: #5c3262;
 	align-content: center;
 	animation:
-	change 7s ease infinite;	
+	changeb 60s ease infinite;	
 	animation-delay: 3s;
 
 }
@@ -134,7 +134,7 @@ span {
 	background-color: #5c3262;
 	align-content: center;
 	animation:
-	change 7s ease infinite;
+	changeb 60s ease infinite;
 	animation-delay: 2s;	
 
 }
@@ -150,7 +150,7 @@ span {
 	background-color: #5c3262;
 	align-content: center;
 	animation:
-	change 7s ease infinite;
+	changeb 60s ease infinite;
 	animation-delay: 1s;	
 
 }
@@ -167,7 +167,7 @@ span {
 	background-color: #5c3262;
 	align-content: center;
 	animation:
-	change 7s ease infinite;	
+	changeb 60s ease infinite;	
 
 }
 
@@ -189,6 +189,83 @@ span {
 
 
 }
+
+@keyframes changeb {
+	0% { background-color:#5d2f63 ; }
+
+	5% { background-color:#5d3048 ; }
+
+	10%  {background-color: #622b35;}
+
+	15% { background-color: #7b262e; }
+
+	20%  {background-color: #99202b;}	
+
+	25% { background-color:#b12029 ; }		
+
+	30% { background-color:#d32030 ; }
+
+	35%  {background-color: #cb202e;}	
+
+	40% { background-color:#ec1b35 ; }		
+
+	45% { background-color:#ed1c3f ; }
+
+	50%  {background-color: #ed1847;}	
+
+	55% { background-color:#ed1c3f ; }
+
+	60% { background-color:#ec1b35 ; }
+
+	65%  {background-color: #cb202e;}
+
+	70% { background-color:#d32030 ; }	
+
+	75% { background-color:#b12029 ; }	
+
+	80%  {background-color: #99202b;}
+
+	85% { background-color: #7b262e; }
+
+	90%  {background-color: #622b35;}
+
+	95% { background-color:#5d3048 ; }								
+
+	100% { background-color:#5d2f63 ; }
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+		
+
+
+
+
+}
+
+
+/*	 	5d2f63
+		5d3048
+		642b35
+		6e292f
+		7b262e
+		99202b
+		b12029
+		d32030
+		cb202e
+		ec1b35
+		ed1c3f
+		ed1847*/
 
 
 

@@ -1,0 +1,140 @@
+body {
+	font-family: Avenir light;
+	font-size: 1.75vh;
+	text-align: left;
+	background-color: black;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+
+span {
+	color:red;
+}
+
+
+.title {
+	position: absolute;
+	top: 15vh;
+	left: 6vw;
+	text-transform: uppercase;
+	font-family: avenir heavy;
+	font-size: 3.5vh;
+	letter-spacing: 0.75vw;
+}
+
+.about {
+	position: absolute;
+	top: 30vh;
+	left: 6vw;
+	text-transform: uppercase;
+	font-size: 2vh;
+}
+
+.cont {
+	position: absolute;
+	top: 34vh;
+	left: 6vw;
+	text-transform: uppercase;
+	font-size: 2vh;
+}
+
+.man {
+	z-index: 1;	
+	position: absolute;
+	top: 15vh;
+	left: 36vw;
+	width: 28vw;
+	height: 41vh;	
+	background-color: black;
+	color: white;
+
+}
+
+.man img {
+	width: 100%;
+}
+
+
+
+.rape {
+	z-index: 1;	
+	position: absolute;
+	top: 15vh;
+	left: 66vw;
+	width: 28vw;
+	height: 41vh;
+	background-color: black;
+	color: white;
+}
+
+.rape img {
+	width: 100%;
+}
+
+.contact {
+	position: absolute;
+	top: 60vh;
+	left: 36vw;
+	width: 28vw;
+	height: 41vh;
+	background-color: black;
+	color: white;
+}
+
+.contact img {
+	width: 100%;
+}
+
+.dpub {
+	z-index: 1;
+	position: absolute;
+	top: 60vh;
+	left: 66vw;
+	width: 28vw;
+	height: 41vh;
+	background-color: black;
+	color: white;
+}
+
+
+
+.dpub img {
+	width: 100%;
+}
+
+
+
+.javier {
+	position: absolute;
+	top: 105vh;
+	left: 36vw;
+	width: 28vw;
+	height: 41vh;
+	background-color: black;
+	color: white;
+}
+
+.javier img {
+	width: 100%;
+}
+
+.other {
+	position: absolute;
+	top: 105vh;
+	left: 66vw;
+	width: 28vw;
+	height: 20.5vh;
+	background-color: black;
+	color: white;
+}
+
+.other img {
+	width: 100%;
+}
+
+
+

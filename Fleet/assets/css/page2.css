@@ -1,0 +1,110 @@
+body {
+	font-family: impact;
+	font-size: 32px;
+	background-color: black;
+
+}
+
+a {
+	color:black;
+}
+
+.title {
+	z-index: 1;
+	position: absolute;
+	top: 5vh;
+	left: 0vh;
+	width: 100vw;
+	text-align: center;
+	font-size: 20vh;
+	color: red;
+	transform: skew(-30deg);
+	text-shadow: 2px 2px black;
+	animation: 
+	glow 5s ease infinite;
+}
+
+@keyframes glow {
+	0% {
+		text-shadow: 2px 2px black;
+	}
+	50% {
+		text-shadow: 2px 2px yellow;
+	}
+	100% {
+		text-shadow: 2px 2px black;
+	}
+}
+
+
+
+.desc {
+	z-index: 1;
+	position: absolute;
+	top: 30vh;
+	left: 30vw;
+	height: 40vh;
+	width: 40vw;
+	background-color: yellow;
+	font-family: avenir heavy;
+	font-size: 3vh;
+	text-align: center;
+}
+
+.flag {
+	position: absolute;
+	top: 0vh;
+	left: 0vh;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	padding: 0px;
+}
+
+.point {
+	background-color: white;
+	position: right;
+	width: 5vw;
+	height: 5vh;
+	padding: 0px;
+
+}
+
+.point.black {
+	background-color: black;
+	animation: 
+	change 10s ease infinite;
+}
+
+@keyframes change {
+	0% {
+		background-color: black;
+	}
+
+	50% {
+		background-color: red;
+	}
+	100% {
+		background-color: black;
+	}
+}
+
+/*.point.black.delay {
+	animation-delay: 2s;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
