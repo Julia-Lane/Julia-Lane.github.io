@@ -91,9 +91,11 @@ a {
 	}
 }
 
-/*.point.black.delay {
-	animation-delay: 2s;
-}*/
+@media (max-width: 450px) {
+	.desc {
+		font-size: 10px;
+	}
+}
 
 
 

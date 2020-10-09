@@ -24,8 +24,9 @@ a {
 .title {
 	position: absolute;
 	top: 2vh;
-	left: 0vh;
-	width: 100vw;
+	right: 0vh;
+	width: 50vw;
+	left: 25vw;
 	text-align: center;
 	font-size: 15vh;
 	color: red;
@@ -40,7 +41,6 @@ a {
 	padding:20px;
 	position:absolute;
 	top: 13vh;
-	left: 1vw;
 	display: flex;
 	justify-content: space-around;
 	text-transform: uppercase;
@@ -59,7 +59,6 @@ a {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
-	padding: 0px;
 }
 
 .point {
@@ -67,7 +66,6 @@ a {
 	position: right;
 	width: 5vw;
 	height: 5vh;
-	padding: 0px;
 
 }
 
@@ -126,15 +124,38 @@ a {
 .footer {
 	height: 100px;
 	width: 100vw;
-	position: fixed;
-	top: 95vh;
-	left: 50px;
+	position: absolute;
+	top: 110vh;
 	background-color: none;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 10px;
 
+}
+
+@media (max-width: 450px) {
+	body {
+		background-color: red;
+	}	
+
+	.item {
+		width: 48%;
+	}
+	.container {
+		top: 150px;
+
+	}
+
+	.footer {
+		top: 4000px;
+	}
+	.nav {
+		top: 100px;
+		width: 100%;
+		padding: 5px;
+		font-size: 10px;
+	}
 }
 
 
