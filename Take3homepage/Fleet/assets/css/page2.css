@@ -12,9 +12,10 @@ a {
 .title {
 	z-index: 1;
 	position: absolute;
-	top: 5vh;
-	left: 0vh;
-	width: 100vw;
+	top: 2vh;
+	right: 0vh;
+	width: 50vw;
+	left: 25vw;
 	text-align: center;
 	font-size: 20vh;
 	color: red;
@@ -92,10 +93,24 @@ a {
 }
 
 @media (max-width: 450px) {
+
+	.title {
+		font-size: 75px;
+		width: 0vw;
+		left: 60px;
+
+	}
 	.desc {
+		top: 150px;
+		left: 50px;
+		width: 300px;
+		height: 150px;
 		font-size: 10px;
 	}
 }
+
+
+
 
 
 
