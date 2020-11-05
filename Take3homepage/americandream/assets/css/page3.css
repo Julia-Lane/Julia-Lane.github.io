@@ -1,0 +1,75 @@
+body {
+	background-color: cornflowerblue;
+	color: lightblue;
+}
+
+a {
+	color:red;
+}
+
+
+span {
+	color:red;
+}
+
+.titlea {
+	position: absolute;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	font-family: arial;
+	font-size: 11vh;
+	font-weight: bold;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+
+}
+
+.titleb {
+	position: absolute;
+	margin-top: 25vh;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	font-family: arial;
+	font-size: 5vh;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-transform: uppercase;	
+	transform: scale(2,16);
+}
+
+
+
+.text {
+	position: absolute;
+	text-align: left;
+	margin-top: 70vh;
+	margin-left: 25vw;
+	width: 40vw;
+	font-family: avenir;
+	font-size: 2.25vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.para.italic {
+	font-style: italic;
+
+}
+
+.para.right {
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.para.bold {
+	font-weight: bold;
+	font-size: 3vh;
+}
+
+.para.cap {
+	text-transform: uppercase;
+}

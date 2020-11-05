@@ -1,0 +1,35 @@
+body {
+	background-color: moccasin;
+}
+
+a {
+	color:red;
+}
+
+
+span {
+	color:red;
+}
+
+.title {
+	position: absolute;
+	margin-left: 30vw;
+	margin-top: 10vh;
+	width: 40vw;
+	font-family: avenir;
+	font-size: 13vh;
+	font-weight: bold;
+	text-align: center;
+}
+
+.nav {
+	width:100%;
+	position:fixed;
+	margin-top: 70vh;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	font-family: avenir;
+	font-weight: bold;
+	font-size: 8vh;
+}
