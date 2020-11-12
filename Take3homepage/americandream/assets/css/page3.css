@@ -1,6 +1,6 @@
 body {
-	background-color: cornflowerblue;
-	color: lightblue;
+	background-color: blue;
+	color: white;
 }
 
 a {
@@ -12,64 +12,146 @@ span {
 	color:red;
 }
 
+.titlepanel {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 100vh;
+	align-content: center;	
+}
+
+.title {
+	width: 50vw;
+	height: 100vh;
+	align-content: center;
+	background-color: red;
+	color: white;
+
+}
+
+.image {
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.image img {
+	padding: 20px;
+}
+
+
+
+img {
+	width:100%;
+}
+
 .titlea {
-	position: absolute;
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
-	font-family: arial;
+	font-family: dicsans, sans-serif;
+	font-weight: 900;
+	font-style: normal;
 	font-size: 11vh;
 	font-weight: bold;
 	letter-spacing: 6px;
 	text-transform: uppercase;
+	text-align: center;
 
 }
 
 .titleb {
-	position: absolute;
-	margin-top: 25vh;
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
-	font-family: arial;
+	font-family: dicsans, sans-serif;
+	font-weight: 900;
+	font-style: normal;
 	font-size: 5vh;
 	font-weight: bold;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	text-transform: uppercase;	
-	transform: scale(2,16);
+	transform: scale(2.2,16);
+	text-align: center;
+	margin-top: 25%;
+}
+
+.columns {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 500px;
+}
+
+.col1 {
+	width: 33.33%;
+	background-color: white;
+	color:navy;
+
+}
+
+.col2 {
+	width: 33.33%;
+	background-color: red;
+	color: white;
+}
+
+.col3 {
+	width: 33.33%;
+	background-color: white;
+	color: navy;
 }
 
 
-
 .text {
-	position: absolute;
-	text-align: left;
-	margin-top: 70vh;
-	margin-left: 25vw;
-	width: 40vw;
+	margin-left: 10%;
+	margin-right: 10%;
 	font-family: avenir;
-	font-size: 2.25vh;
+	font-size: 2.75vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 
 }
 
-.para.italic {
-	font-style: italic;
-
-}
-
-.para.right {
-	margin-left: 5vw;
-	margin-right: 5vw;
-}
-
-.para.bold {
-	font-weight: bold;
+p {
+	text-indent: 50px;
+	text-align: left;
+	font-family: avenir;
 	font-size: 3vh;
 }
 
-.para.cap {
+.quote {
+	text-align: center;
+	font-style: italic;
+	font-size: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.quote p {
+	padding: 20px;
+}
+
+.left {
+	margin-left: 10%;
+	margin-right: 50%;
+}
+
+.right {
+	margin-left: 50%;
+	margin-right: 10%
+}
+
+.bold {
+	font-weight: bold;
+	size: 20vh;
+}
+
+.upper {
 	text-transform: uppercase;
+}
+
+.inversebg {	
+	background-color: red;
+	color: white;
 }
