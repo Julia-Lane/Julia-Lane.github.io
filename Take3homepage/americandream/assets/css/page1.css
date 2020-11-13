@@ -4,7 +4,7 @@ body {
 }
 
 a {
-	color:red;
+	color:white;
 }
 
 
@@ -53,7 +53,7 @@ img {
 	font-family: dicsans, sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 9.75vh;
+	font-size: 4vw;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
@@ -64,11 +64,11 @@ img {
 	font-family: dicsans, sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 5vh;
+	font-size: 2vw;
 	font-weight: bold;
 	letter-spacing: 5px;
 	text-transform: uppercase;	
-	transform: scale(2.2,16);
+	transform: scale(2.2,20);
 	text-align: center;
 	margin-top: 25%;
 }
@@ -148,6 +148,10 @@ p {
 	font-weight: bold;;
 }
 
+.sml {
+	font-size: 2vh;
+}
+
 .med {
 	font-size: 4vh;
 }
@@ -176,6 +180,10 @@ p {
 
 .padding {
 	padding: 20px;
+}
+
+.upper {
+	text-transform: uppercase;
 }
 
 

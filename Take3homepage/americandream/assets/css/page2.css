@@ -18,6 +18,12 @@ span {
 }
 
 
+a:hover {
+	background-color: none;
+	color: blue;
+}
+
+
 
 .titlepanel {
 	display: flex;

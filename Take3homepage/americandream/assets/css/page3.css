@@ -1,10 +1,10 @@
 body {
-	background-color: blue;
+	background-color: navy;
 	color: white;
 }
 
 a {
-	color:red;
+	color:navy;
 }
 
 
@@ -53,7 +53,7 @@ img {
 	font-family: dicsans, sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 11vh;
+	font-size: 5vw;
 	font-weight: bold;
 	letter-spacing: 6px;
 	text-transform: uppercase;
@@ -65,11 +65,11 @@ img {
 	font-family: dicsans, sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 5vh;
+	font-size: 2vw;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-transform: uppercase;	
-	transform: scale(2.2,16);
+	transform: scale(4.25,20);
 	text-align: center;
 	margin-top: 25%;
 }
@@ -147,6 +147,10 @@ p {
 	size: 20vh;
 }
 
+.med {
+	font-size: 4vh;
+}
+
 .upper {
 	text-transform: uppercase;
 }
@@ -154,4 +158,8 @@ p {
 .inversebg {	
 	background-color: red;
 	color: white;
+}
+
+.padding {
+	padding: 20px;
 }

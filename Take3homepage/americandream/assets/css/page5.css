@@ -4,7 +4,7 @@ body {
 }
 
 a {
-	color:red;
+	color:white;
 }
 
 
@@ -50,7 +50,7 @@ img {
 	font-family: dicsans, sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 11vh;
+	font-size: 5vw;
 	font-weight: bold;
 	letter-spacing: 6px;
 	text-transform: uppercase;
@@ -62,14 +62,16 @@ img {
 	font-family: dicsans, sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 3vh;
+	font-size: 2vw;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-transform: uppercase;	
-	transform: scale(2.25,28);
+	transform: scale(4.25,20);
 	text-align: center;
 	margin-top: 25%;
 }
+
+
 
 .columns {
 	display: flex;
@@ -147,6 +149,10 @@ p {
 	size: 20vh;
 }
 
+.large {
+	font-size: 8vh;
+}
+
 .upper {
 	text-transform: uppercase;
 }
@@ -154,4 +160,8 @@ p {
 .inversebg {	
 	background-color: white;
 	color: navy;
+}
+
+.padding {
+	padding: 20px;
 }
