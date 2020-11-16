@@ -1,6 +1,7 @@
 body {
 	background-color: red;
 	color: white;
+
 }
 
 a {
@@ -79,6 +80,7 @@ img {
 	flex-wrap: wrap;
 	width: 100vw;
 	height: 500px;
+
 }
 
 .col1 {
@@ -86,6 +88,7 @@ img {
 	height: 500px;
 	background-color: red;
 	color: white;
+
 
 }
 
@@ -124,7 +127,7 @@ p {
 .quote {
 	text-align: center;
 	font-style: italic;
-	font-size: 10vh;
+	font-size: 8vh;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
