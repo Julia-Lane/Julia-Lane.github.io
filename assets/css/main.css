@@ -1,11 +1,13 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-family: avenir;
+	font-size: 1.25vw;
 	background-color: grey;
+	color: white;
 }
 
 a {
-	color:red;
+	color:navy;
+	text-decoration: none;
 }
 
 .container {
@@ -22,4 +24,24 @@ a {
 
 img {
 	width: 50%;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90vw;
+	text-align: left;
+	background-color: grey;
+	color: white;
+}
+
+.col1 {
+	width: 50%;
+}
+
+.col2 {
+	width: 50%;
+	text-align: right;
 }
