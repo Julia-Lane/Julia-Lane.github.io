@@ -1,12 +1,12 @@
 body {
 	font-family: avenir;
 	font-size: 1.25vw;
-	background-color: grey;
+	background-color: black;
 	color: white;
 }
 
 a {
-	color:navy;
+	color: orange;
 	text-decoration: none;
 }
 
@@ -33,8 +33,7 @@ img {
 	margin-right: auto;
 	width: 90vw;
 	text-align: left;
-	background-color: grey;
-	color: white;
+
 }
 
 .col1 {
