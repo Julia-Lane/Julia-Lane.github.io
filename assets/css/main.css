@@ -1,0 +1,25 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: grey;
+}
+
+a {
+	color:red;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+
+
+}
+
+img {
+	width: 50%;
+}

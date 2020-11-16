@@ -1,0 +1,224 @@
+body {
+	font-family: arial black;
+	font-size: 60px;
+	text-align: center;
+	background-color: black;
+}
+
+a {
+	color: white;
+}
+
+
+span {
+	color:red;
+}
+
+.title {
+	position: absolute;
+	z-index: 5;
+	top: 40vh;
+	left: 0vw;
+	width: 100vw;
+	text-align: center;
+	font-family: arial black;
+	font-kerning: none;
+	letter-spacing: 7px;
+	font-style: bold;
+	font-size: 20px;
+	color: white;
+}
+
+.home {
+	z-index: 4;
+	position: absolute;
+	top: -10vh;
+	left: 0vw;
+	margin: 10vw;
+	width:80vw;
+	height:60vh;
+	background-color: purple;
+	opacity: 50%;
+
+}
+
+.home2 {
+	z-index: 4;
+	position: absolute;
+	top: -10vh;
+	left: 15vw;
+	margin: 10vw;
+	width:45vw;
+	height:60vh;
+	background-color: green;
+	opacity: 50%;
+	animation: 
+	nudge 6s ease alternate;
+
+}
+
+@keyframes nudge {
+	0% { transform: translate(0vw); }
+
+	50% { transform: translate(20vw);}
+
+	100% { transform: translate(0vw); }	
+}
+
+.home3 {
+	z-index: 4;
+	position: absolute;
+	top: -10vh;
+	left: 30vw;
+	margin: 10vw;
+	width:30vw;
+	height:60vh;
+	background-color: blue;
+	opacity: 50%;
+	animation: 
+	nudge 6s ease alternate;
+	animation-delay:1s;
+
+
+}
+
+.home4 {
+	z-index: 4;
+	position: absolute;
+	top: -10vh;
+	left: 50vw;
+	margin: 10vw;
+	width:30vw;
+	height:60vh;
+	background-color: red;
+	opacity: 50%;
+}
+
+
+
+.container {
+	top: -10vh;
+	left: 0vw;
+	width:80vw;
+	height:60vh;
+	background-color: black;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	margin: 10vw;
+	align-content: center;
+
+}
+
+
+
+.item {
+	width: 200%;
+}
+
+.item img {
+	width: 125%;
+}
+
+.item.even {
+	transform: rotatex( 180deg);
+}
+
+.item.cover {
+	z-index:2;
+}
+
+.box {
+	position: absolute;
+	top: 85vh;
+	left:10vw;
+	width: 38vw;
+	height: 20vh;
+	background-color: black;
+	font-size: 3vh;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+.box:hover {
+	background-color: purple;
+	opacity: 50%
+}
+
+.box2 {
+	position: absolute;
+	top: 85vh;
+	right: 10vw;
+	width: 38vw;
+	height: 20vh;	
+	background-color: black;
+	font-size: 3vh;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+.box2:hover {
+	background-color: green;
+	opacity: 50%;
+}
+
+.box3 {
+	position: absolute;
+	top: 110vh;
+	left:10vw;
+	width: 38vw;
+	height: 20vh;
+	background-color: black;
+	font-size: 3vh;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.box3:hover {
+	background-color: blue;
+	opacity: 50%;
+}
+
+.box4 {
+	position: absolute;
+	top: 110vh;
+	right: 10vw;
+	width: 38vw;
+	height: 20vh;	
+	background-color: black;
+	font-size: 3vh;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+.box4:hover {
+	background-color: red;
+	opacity: 50%;
+}
+
+.box5 {
+	position: absolute;
+	top: 135vh;
+	left:10vw;
+	width: 38vw;
+	height: 20vh;
+	background-color: black;
+	font-size: 3vh;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.box5:hover {
+	background-color: orange;
+	opacity: 50%;
+}
+
+
+
