@@ -220,5 +220,25 @@ span {
 	opacity: 50%;
 }
 
+.box6 {
+	position: absolute;
+	top: 135vh;
+	right: 10vw;
+	width: 38vw;
+	height: 20vh;	
+	background-color: black;
+	font-size: 3vh;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+.box6:hover {
+	background-color: hotpink;
+	opacity: 50%;
+}
+
+
+
 
 
